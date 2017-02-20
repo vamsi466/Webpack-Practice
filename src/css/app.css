@@ -60,6 +60,9 @@
 
 .rebroadcast .select {
   color: #787b7d; }
+.rebroadcast .form-body{
+ border-bottom: 1px solid #ddd}
+		
 
 @media (max-width: 768px) {
   .rebroadcast .checkbox-inline {

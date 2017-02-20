@@ -1,5 +1,3 @@
-// require('../../../node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css')
-
 require('../node_modules/ng-table/bundles/ng-table.min.css');
 require('../node_modules/jquery/src/jquery.js');
 require('../node_modules/angular/angular.js');
@@ -12,7 +10,7 @@ require('./modules/dashboard/dashboard.module.js')
 require('./modules/daignostics/daignostics.module.js')
 require('./modules/network-configuration/network-configuration.module.js')
 
-require('./css/app.css')
+require('./css/app.sass')
 require('./css/trimble.css')
 require('./css/trimble.2.css')
 
@@ -63,10 +61,4 @@ module.exports = angular
 					left: false,
 				}
 	})
-
-// require('./SNM941.config.js');
-// require('../dist/daignostics.bundle.js');
-// require('../dist/dashboard.bundle.js');
-// require('../dist/network-config.bundle.js')
-
 

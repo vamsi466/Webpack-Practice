@@ -16,12 +16,7 @@ module.exports = {
 			test: /\.css$/,
 			loader: 'style-loader!css-loader'
 		},
-        // {
-        //     test: /\.html$/,
-        //     loader: 'html-loader'
-        // },
         {
-            // require raw html for partials
             test: /\.tpl\.html$/,
             loader: 'ng-cache-loader'
         },
