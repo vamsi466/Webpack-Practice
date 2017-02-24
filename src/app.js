@@ -30,7 +30,12 @@ module.exports = angular
 		    controllerAs: 'dc' 
 		  })
 
-		 
+		  .state('networkconfig', {
+		    url:'/network-configuration',
+		    templateUrl: './src/modules/network-configuration/templates/network-configuration.tpl.html',
+		    controller:'networkConfigurationCtrl',
+			controllerAs:"nc"
+		  })
 
 		  .state('telematic', {
 	          url:'/telematic',
